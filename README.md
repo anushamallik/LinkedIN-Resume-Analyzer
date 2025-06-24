@@ -16,21 +16,8 @@ Semantic matching engine that evaluates resumes against job descriptions using N
 - **Backend**: Python
 - **NLP Models**: Sentence Transformers (BERT), Scikit-learn
 - **Libraries**: PDFPlumber, Transformers, Torch, Pandas
-
 ---
-## Project Structure
-
-linkedin_resume_analyzer/
-├── app.py # Streamlit frontend
-├── requirements.txt
-└── backend/
-├── resume_parser.py # Extracts text from resume PDFs
-├── job_parser.py # Processes job descriptions
-├── match_engine.py # Computes similarity scores
-├── suggestions.py # Suggests improvements
-└── utils.py # Text cleaning and helpers
-
-
+## INSTALLATION
 #  Clone the repository
 git clone https://github.com/anushamallik/linkedin-resume-analyzer.git
 cd linkedin-resume-analyzer
